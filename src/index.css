@@ -3,15 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth
+}
 /* fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300&family=Urbanist:wght@500&display=swap');
 .pre-sub-heading {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 .heading {
   font-family: 'Montserrat', sans-serif;
 }
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
