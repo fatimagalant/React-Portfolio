@@ -1,6 +1,6 @@
 export default function About() {
     return(
-        <section id="about" className="bg-[url'https://i.postimg.cc/Pq0vRXKG/bg2-dark.png']">
+        <section id="about" className="bg-[url(https://i.postimg.cc/pXG2vHrq/bg-dark-2.png)] bg-fixed bg-no-repeat bg-cover">
         <div className={"min-h-screen container text-2xl text-white p-5"}>
             <p className="pre-sub-heading text-5xl text-center">About</p>
             <div className={"container mx-auto"}>
@@ -10,7 +10,7 @@ export default function About() {
                 </div>
 <p className={"align-end"}>another test</p>
             </div>
-            </div>
+            </div>  
             <div className="social-icons">
                 <div className="row">
                     <div className="col"><i class="fa-brands fa-linkedin"></i></div>
