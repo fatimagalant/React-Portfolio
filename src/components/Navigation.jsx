@@ -25,7 +25,6 @@ export default function Navigation() {
             <a href="#testimonials" className="mr-5 font-medium text-white hover:text-gray">
               Testimonials
             </a>
-            <i class="fa-regular fa-moon" style="color: #256ca2;"></i>
           </nav>
           <a
             href="#contact"
