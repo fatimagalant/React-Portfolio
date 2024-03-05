@@ -2,7 +2,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export default function Navigation() {
     return(
-        <header className="bg-gray-850 md:sticky top-0 z-10 scroll-smooth">
+        <header className="bg-black md:sticky top-0 z-10 scroll-smooth">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="heading font-semibold title-font font-medium text-white mb-4 md:mb-0">
             <a href="#home" className="ml-3 text-base text-white">
@@ -25,6 +25,7 @@ export default function Navigation() {
             <a href="#testimonials" className="mr-5 font-medium text-white hover:text-gray">
               Testimonials
             </a>
+            <i class="fa-regular fa-moon" style="color: #256ca2;"></i>
           </nav>
           <a
             href="#contact"

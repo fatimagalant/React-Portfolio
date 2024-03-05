@@ -15,6 +15,28 @@ Adept at leveraging various technologies to build dynamic and engaging user expe
                 </div>
 <p className={"align-end"}></p>
             </div>
+            </div>  
+            <div className="social-icons">
+                <div className="row">
+                    <div className="col"><i class="fa-brands fa-linkedin"></i></div>
+                    <div className="col"><i class="fa-brands fa-github"></i></div>
+                    <div className="col"><i class="fa-brands fa-codepen"></i></div>
+                </div>
+                <div className="row">
+                    <p>You can reach me via:</p>
+                    <div className="col">
+                      <p>Email:</p>
+                        </div>
+                    <div className="col">
+                    <a href="mailto:name@email.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    <div className="col">
+                       <p>Phone: </p>
+                        </div>
+                    <div className="col">
+                    <a href="tel:+44-785-7895"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                </div>
             </div>
     </section>
     )
