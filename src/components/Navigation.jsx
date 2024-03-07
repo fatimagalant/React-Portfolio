@@ -22,9 +22,9 @@ export default function Navigation() {
             <a href="#resume" className="mr-5 font-medium text-white hover:text-gray">
              Resume
             </a>
-            <a href="#testimonials" className="mr-5 font-medium text-white hover:text-gray">
+            {/* <a href="#testimonials" className="mr-5 font-medium text-white hover:text-gray">
               Testimonials
-            </a>
+            </a> */}
           </nav>
           <a
             href="#contact"

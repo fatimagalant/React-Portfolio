@@ -6,7 +6,7 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Resume from "./components/Resume";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
       <Skills/>
       <Projects/>
       <Resume/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer />
     </main>
