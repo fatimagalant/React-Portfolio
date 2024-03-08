@@ -2,7 +2,7 @@ export default function Resume() {
     return(
         <section id="resume">
         <div className={"min-h-screen container text-2xl text-white p-5"}>
-            <p className="pre-sub-heading text-5xl text-center pb-10">Resume</p>
+            <p className="pre-sub-heading text-5xl text-center pb-10 pt-20">Resume</p>
             <p className="pre-sub-heading text-3xl text-center">Experience</p>
             <ol class="relative border-s border-gray-200 dark:border-gray-700 p-20">                  
     <li class="mb-10 ms-6">            
@@ -27,15 +27,15 @@ export default function Resume() {
                       </li>
                     </ul>
         </p>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">HTML5</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">CSS3</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">BootStrap</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">JavaScript</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">PHP</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Wordpress (Elementor Pro)</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Tailwind CSS</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">React</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">NextJS</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">HTML5</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">CSS3</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">BootStrap</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">JavaScript</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">PHP</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Wordpress (Elementor Pro)</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Tailwind CSS</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">React</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">NextJS</span>
 
     </li>
     <li class="mb-10 ms-6">
@@ -60,15 +60,15 @@ export default function Resume() {
                       </li>
                     </ul>
         </p>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">HTML5</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">CSS3</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">BootStrap</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">JavaScript</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Vuetify</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Quasar Framework</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Wordpress (Elementor Pro)</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">AWS</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">SEO</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">HTML5</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">CSS3</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">BootStrap</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">JavaScript</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Vuetify</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Quasar Framework</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">Wordpress (Elementor Pro)</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">AWS</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300 ms-3">SEO</span>
     </li>
 </ol>
 <p className="pre-sub-heading text-3xl text-center pt-20">Education</p>

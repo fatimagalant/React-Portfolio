@@ -2,9 +2,9 @@ export default function Skills() {
     return(
         <section id="skills">
         <div className={"min-h-screen container text-2xl text-white p-5"}>
-            <p className="pre-sub-heading text-5xl text-center mt-10">Skills</p>
+            <p className="pre-sub-heading text-5xl text-center mt-10 pt-20">Skills</p>
             <div className="grid-rows-2 p-10 justify-center">
-<div className="grid grid-cols-6 text-8xl p-10">
+<div className="grid grid-cols-6 text-8xl p-10 justify-items-center">
 <i class="fa-brands fa-html5 mb-16" style={{color: "#dd4b25"}}></i>
 <i class="fa-brands fa-css3" style={{color: "#60abd6"}}></i>
 <i class="fa-brands fa-bootstrap" style={{color: "#7d19f9"}}></i>
