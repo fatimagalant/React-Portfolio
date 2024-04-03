@@ -13,9 +13,9 @@ export default function Footer() {
                             <h6 className="heading text-xl text-center">Quick Links</h6>
                             <ul className="text-center">
                                 <li><a href="#about" className="mr-5 font-medium text-white hover:text-gray">About</a></li>
-                                <li>  <a href="#skills" className="mr-5 font-medium text-white hover:text-gray">Skills</a></li>
-                                <li> <a href="#projects" className="mr-5 font-medium text-white hover:text-gray">Projects</a></li>
-                                <li>  <a href="#resume" className="mr-5 font-medium text-white hover:text-gray">Resume</a></li>
+                                <li><a href="#skills" className="mr-5 font-medium text-white hover:text-gray">Skills</a></li>
+                                <li><a href="#projects" className="mr-5 font-medium text-white hover:text-gray">Projects</a></li>
+                                <li><a href="#resume" className="mr-5 font-medium text-white hover:text-gray">Resume</a></li>
                                 <li><a href="#testimonials" className="mr-5 font-medium text-white hover:text-gray">Testimonials</a></li>
                             </ul>
                         </div>

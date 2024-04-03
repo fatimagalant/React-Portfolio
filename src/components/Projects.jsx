@@ -34,16 +34,15 @@ function List({ projects }) {
     return (
         <div className="grid grid-cols-3 gap-4 justify-center ml-20 flex-wrap">
             {projects.map(project => (
-                <div key={project.id} className="max-w-sm bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-900 dark:border-gray-900">
-                    {project.projectIcon}
+                <div key={project.id} className="max-w-sm bg-white border-1 border-white border-gray-900 rounded-lg shadow bg-gradient-to-r from-black from-30% via-indigo-900 to-indigo-700 dark:border-gray-900 flex-wrap">
+                    <div className='justify-center rounded-full'>{project.projectIcon}</div>
                     <div className="p-5">
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white justify-center">{project.name}</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{project.description}</p>
-                        <hr></hr>
                         <div className="flex justify-center space-x-4 pt-5 pb-5">
-                        <button className='rounded-full bg-indigo-900 px-2 py-2' text="Project Link" url={project.link}><i class="fa-solid fa-link"></i></button>
+                        <button className="rounded-full border-white bg-transparent hover:bg-indigo-900 px-2 py-2" text="Project Link" url={project.link}><i class="fa-solid fa-link"></i></button>
                         <button className='rounded-full bg-indigo-900 px-3 py-2' text="Github" url={project.github}><i class="fa-brands fa-github"></i></button>
                         </div>  
                     </div>
