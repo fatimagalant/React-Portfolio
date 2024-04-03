@@ -1,6 +1,6 @@
 export default function Skills() {
     return(
-        <section id="skills">
+        <section id="skills" className="bg-[#0e0e11]">
         <div className={"min-h-screen container text-2xl text-white p-5"}>
             <p className="pre-sub-heading text-5xl text-center mt-10 pt-20">Skills</p>
             <div className="grid-rows-2 p-10 justify-center">

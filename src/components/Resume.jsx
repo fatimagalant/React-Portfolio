@@ -1,6 +1,6 @@
 export default function Resume() {
     return(
-        <section id="resume">
+        <section id="resume" className="bg-[#0e0e11]">
         <div className={"min-h-screen container text-2xl text-white p-5"}>
             <p className="pre-sub-heading text-5xl text-center pb-10 pt-20">Resume</p>
             <p className="pre-sub-heading text-3xl text-center">Experience</p>

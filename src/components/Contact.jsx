@@ -35,7 +35,7 @@ export default function Contact() {
   
   
   return (
-    <section id="contact">
+    <section id="contact" className="bg-[#0e0e11]">
       <form onSubmit={handleFormSubmit}>
         <div className="min-h-screen container text-2xl text-white p-5">
           <p className="pre-sub-heading text-5xl text-center pt-20">Contact</p>
