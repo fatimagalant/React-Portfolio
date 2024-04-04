@@ -5,16 +5,25 @@ export default function About() {
             <p className="pre-sub-heading text-5xl text-center pt-20">About</p>
             <div className={"container mx-auto"}>
                 <div className="columns-2">
-{/* <img src="https://i.postimg.cc/DycswKfs/Copy-of-Fatima-1-1-removebg-preview.png" alt="Fatima Galant" /> */}
-<h3 className="p-20 "> Highly motivated and dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. 
-Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, Node.js, Express.js, and WordPress using Elementor. 
-Currently expanding expertise in PHP, React, Tailwind CSS, SASS, LESS, and Next.js. 
+                    <div className="flex justify-center inline-block align-top">
+<img src="https://i.postimg.cc/DycswKfs/Copy-of-Fatima-1-1-removebg-preview.png" alt="Fatima Galant"/>
+                    </div>
+                    <div className="inline-block align-middle">
+
+<h3 className="mt-20 px-px flex justify-start"> I am a highly motivated and dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. </h3>
+<h3 className="px-px">
+    Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, Node.js, Express.js, and WordPress using Elementor. 
+    </h3>
+<h3 className="px-px">  
+    Currently expanding expertise in PHP, React, Tailwind CSS, SASS, LESS, and Next.js. 
 
 Committed to creating responsive and accessible web applications that showcase creativity and innovation. 
 
 Adept at leveraging various technologies to build dynamic and engaging user experiences.
+    </h3>
 
- Seeking opportunities to contribute to challenging projects and build a diverse portfolio of impressive web applications.</h3>
+ <h3>Seeking opportunities to contribute to challenging projects and build a diverse portfolio of impressive web applications.</h3>
+ </div>
             {/* <div className="social-icons text-white">
                 <div className="row">
                     <div className="grid grid-cols-3">
@@ -25,7 +34,6 @@ Adept at leveraging various technologies to build dynamic and engaging user expe
                 </div>
             </div> */}
                 </div>
-<p className={"align-end"}></p>
             </div>
             </div>  
     </section>
