@@ -23,8 +23,8 @@ export default function Testimonials() {
           <Slide index={7}>I am the eighth Slide.</Slide>
           <Slide index={8}>I am the nineth Slide.</Slide>
         </Slider>
-        <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
+        <ButtonBack>☜(ﾟヮﾟ☜)</ButtonBack>
+        <ButtonNext>(☞ﾟヮﾟ)☞</ButtonNext>
       </CarouselProvider>
 </div>
     </section>
