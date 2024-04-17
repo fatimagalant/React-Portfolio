@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 // Moved Projects array outside the component
 const Projects = [
@@ -34,6 +36,13 @@ function List({ projects }) {
     return (
         <div className="grid grid-cols-3 gap-4 justify-center ml-20 flex-wrap">
             {projects.map(project => (
+                  <CarouselProvider
+                  naturalSlideWidth={100}
+                  naturalSlideHeight={125}
+                  totalSlides={9}
+                >
+                  <Slider>
+                  <Slide index={0}>
                 <div key={project.id} className="max-w-sm bg-white border-1 border-white border-gray-900 rounded-lg shadow bg-gradient-to-r from-slate-800 from-30% via-indigo-900 to-indigo-700 dark:border-gray-900 flex-wrap">
                     <div className='flex justify-center rounded-full p-9 text-5xl'>{project.projectIcon}</div>
                     <div className="p-5">
@@ -51,8 +60,13 @@ function List({ projects }) {
                         </div>  
                     </div>
                 </div>
+                </Slide>
+                </Slider>
+        <ButtonBack>Back</ButtonBack>
+        <ButtonNext>Next</ButtonNext>
+      </CarouselProvider>
             ))}
-        </div>
+        // </div>
     );
 }
 

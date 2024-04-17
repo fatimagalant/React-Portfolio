@@ -12,10 +12,10 @@ export default function About() {
 
 <h3 className="mt-20 px-px flex justify-start"> I am a highly motivated and dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. </h3>
 <h3 className="px-px">
-    Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, Node.js, Express.js, and WordPress using Elementor. 
+    Proficient in a wide range of in-demand skills.
     </h3>
+    
 <h3 className="px-px">  
-    Currently expanding expertise in PHP, React, Tailwind CSS, SASS, LESS, and Next.js. 
 
 Committed to creating responsive and accessible web applications that showcase creativity and innovation. 
 

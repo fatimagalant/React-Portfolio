@@ -53,7 +53,7 @@ export default function Contact() {
                         placeholder="Name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        className="w-full bg-gray-100 rounded border bg-slate-900 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export default function Contact() {
                         placeholder="Email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        className="w-full bg-gray-100 rounded border bg-slate-900 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                       <ValidationError
                         prefix="Email"
@@ -83,7 +83,7 @@ export default function Contact() {
                         placeholder="Message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                        className="w-full bg-gray-100 rounded border bg-slate-900 border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       ></textarea>
                       <ValidationError
                         prefix="Message"
